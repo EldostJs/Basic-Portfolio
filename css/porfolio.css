@@ -33,66 +33,59 @@ header{
 .container{
     background-color: white;
     width: 650px;
-    height: 500px;
+    height: 650px;
     margin-left: 190px;
-    margin-top: 50px;
-}
-.card1 img{
-    width: 40%;
-}
-.card3 img{
-    width: 40%;
-}
-.card4 img{
-    width: 100%;
-}
-.card4{
-    margin-left: 390px;
-    margin-top: -100px;
-}
-.card3{
-    margin-left: 50px;
-}
-.card1{
-    margin-left: 50px;
-}
-.card2{
-    margin-left: 390px;
-    margin-top: -180px;
-}
-.card2 img{
-    width: 92%;
 }
 .container h3{
     color: #4AAAA5;
-    width: 300px;
-    height: 50px;
-    font-size: 40px;
-    padding-left: 30px;
-    padding-top: 50px;
+    font-size: xx-large;
+    padding-left: 50px;
+    padding-top: 30px;
 }
-.hrr{
-    margin-top: -40px;
-}
-.im{
-    margin-left: 30px;
-    margin-top: 15px;
-}
-.card img{
-    width: 20%;
-}
-.cards{
+.container div{
     display: flex;
-    justify-content: space-around;
-    background-color: red;
+}
+.cards{ 
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+img{
+    width: 250px;
+    transition: 3s;
+}
+img :hover{
+    transform: scale(1.3);
+}
+.text{
+    margin-left: 80px;
+    z-index: 3;
+}
+.text h2{
+    background-color:  #4AAAA5;
+    margin-top: -50px;
+    width: 250px;
+    margin-left: -80px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
 
+}
+.text2 h2{
+    background-color: #4AAAA5;
+    margin-top: -50px;
+    width: 250px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
 }
 .di2{
     background-color: white;
     width: 270px;
     height: 200px;
     margin-left: 990px;
-    margin-top: -518px;
+    margin-top: -675px;
 }
 .di2 h3{
     color: #4AAAA5;
@@ -126,7 +119,7 @@ footer{
     width: 1520px;
     height: 100px;
     margin-left: -9px;
-    margin-top: 350px;
+    margin-top: 650px;
 }
 .el{
     text-align: center;
